@@ -1,0 +1,40 @@
+body {
+			background: hsl(204,43%,93%);
+			font-size: 16px;
+			font-family: serif;
+}
+.flex-container {
+				display: flex;
+				flex-direction: column;
+				border-radius:20px;
+       align-items: center;
+				flex-wrap: wrap;
+}
+.box1 {
+				width: 375px;
+				background: white;
+				padding: 15px;
+}
+.box2 {
+				width: 375px;
+				background: hsl(179,69%,43%);
+				padding: 15px;
+				color: white;
+}
+.box3 {
+				width: 375px;
+				background: hsl(179,70%,45%);
+				padding: 15px;
+				color: white;
+}
+.button {
+				background: hsl(71,73%,54%);
+				width:300px;
+				height: 19px;
+				padding:15px;
+				border-radius: 10px;
+				color:white;
+}
+h3, h4, p {
+				text-align:left;
+}
